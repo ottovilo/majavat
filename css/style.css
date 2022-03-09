@@ -41,6 +41,7 @@ p {
 }
 
 
+
 /**
  *      ========== HEADER ==========
  */
@@ -185,7 +186,7 @@ p {
 .staffmember {
     flex: 0 0 33.333%;
     width: 33.333%;
-    position: fixed;
+    position: relative;
     padding: 0 .25rem;
     text-align: center;
     max-width: 275px;
@@ -194,12 +195,12 @@ p {
 }
 
 .staffmember .img-box {
-    height: 200px;
+    height: 300px;
     position: relative;
 }
 
 .staffmember .img-box img {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
